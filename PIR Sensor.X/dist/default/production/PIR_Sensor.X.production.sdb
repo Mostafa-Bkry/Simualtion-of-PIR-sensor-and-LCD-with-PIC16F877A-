@@ -11,9 +11,84 @@
 [v ___eecpymem __eecpymem `(v  1 e 1 0 ]
 "39
 [v ___memcpyee __memcpyee `(v  1 e 1 0 ]
-"13 D:\MyStudy level 4\Sections\Practical\Embedded\PIR Sensor.X\main.c
+"18 D:\MyStudy level 4\Sections\Practical\Embedded\PIR Sensor.X\main.c
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+"28
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+"38
+[v _lcd_string lcd_string `(v  1 e 1 0 ]
+"47
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"55
 [v _main main `(v  1 e 1 0 ]
+"216 D:/MPLab setup/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"278
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"2680
+[v _RB2 RB2 `VEb  1 e 0 @50 ]
+"2683
+[v _RB3 RB3 `VEb  1 e 0 @51 ]
+"2749
+[v _RD0 RD0 `VEb  1 e 0 @64 ]
+"2752
+[v _RD1 RD1 `VEb  1 e 0 @65 ]
+"2755
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"2770
+[v _RD7 RD7 `VEb  1 e 0 @71 ]
+"2941
+[v _TRISB2 TRISB2 `VEb  1 e 0 @1074 ]
+"2944
+[v _TRISB3 TRISB3 `VEb  1 e 0 @1075 ]
+"2983
+[v _TRISD0 TRISD0 `VEb  1 e 0 @1088 ]
+"2986
+[v _TRISD1 TRISD1 `VEb  1 e 0 @1089 ]
+"2989
+[v _TRISD2 TRISD2 `VEb  1 e 0 @1090 ]
+"3004
+[v _TRISD7 TRISD7 `VEb  1 e 0 @1095 ]
+"55 D:\MyStudy level 4\Sections\Practical\Embedded\PIR Sensor.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"15
+"87
+} 0
+"38
+[v _lcd_string lcd_string `(v  1 e 1 0 ]
+{
+[v lcd_string@str str `*.24DCuc  1 a 1 wreg ]
+"40
+[v lcd_string@i i `uc  1 a 1 7 ]
+"38
+[v lcd_string@str str `*.24DCuc  1 a 1 wreg ]
+[v lcd_string@num num `uc  1 p 1 4 ]
+"41
+[v lcd_string@str str `*.24DCuc  1 a 1 6 ]
+"45
+} 0
+"18
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+{
+[v lcd_data@data data `uc  1 a 1 wreg ]
+[v lcd_data@data data `uc  1 a 1 wreg ]
+"20
+[v lcd_data@data data `uc  1 a 1 3 ]
+"26
+} 0
+"47
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"53
+} 0
+"28
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+{
+[v lcd_command@cmd cmd `uc  1 a 1 wreg ]
+[v lcd_command@cmd cmd `uc  1 a 1 wreg ]
+"30
+[v lcd_command@cmd cmd `uc  1 a 1 3 ]
+"36
 } 0
