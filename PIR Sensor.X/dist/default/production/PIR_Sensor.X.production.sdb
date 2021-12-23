@@ -61,12 +61,12 @@
 {
 [v lcd_string@str str `*.24DCuc  1 a 1 wreg ]
 "40
-[v lcd_string@i i `uc  1 a 1 7 ]
+[v lcd_string@i i `uc  1 a 1 6 ]
 "38
 [v lcd_string@str str `*.24DCuc  1 a 1 wreg ]
-[v lcd_string@num num `uc  1 p 1 4 ]
+[v lcd_string@num num `uc  1 p 1 3 ]
 "41
-[v lcd_string@str str `*.24DCuc  1 a 1 6 ]
+[v lcd_string@str str `*.24DCuc  1 a 1 5 ]
 "45
 } 0
 "18
@@ -75,7 +75,7 @@
 [v lcd_data@data data `uc  1 a 1 wreg ]
 [v lcd_data@data data `uc  1 a 1 wreg ]
 "20
-[v lcd_data@data data `uc  1 a 1 3 ]
+[v lcd_data@data data `uc  1 a 1 2 ]
 "26
 } 0
 "47
@@ -89,6 +89,6 @@
 [v lcd_command@cmd cmd `uc  1 a 1 wreg ]
 [v lcd_command@cmd cmd `uc  1 a 1 wreg ]
 "30
-[v lcd_command@cmd cmd `uc  1 a 1 3 ]
+[v lcd_command@cmd cmd `uc  1 a 1 2 ]
 "36
 } 0

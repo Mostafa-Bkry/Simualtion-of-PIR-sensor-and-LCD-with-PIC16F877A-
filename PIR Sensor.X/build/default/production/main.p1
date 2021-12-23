@@ -255,8 +255,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 23:     RD2 = 1;
 [e = _RD2 -> -> 1 `i `b ]
 "24
-[; ;main.c: 24:     _delay((unsigned long)((500)*(20000000/4000.0)));
-[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+[; ;main.c: 24:     _delay((unsigned long)((5)*(20000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
 "25
 [; ;main.c: 25:     RD2 = 0;
 [e = _RD2 -> -> 0 `i `b ]
@@ -290,8 +290,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 33:     RD2 = 1;
 [e = _RD2 -> -> 1 `i `b ]
 "34
-[; ;main.c: 34:     _delay((unsigned long)((500)*(20000000/4000.0)));
-[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+[; ;main.c: 34:     _delay((unsigned long)((5)*(20000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
 "35
 [; ;main.c: 35:     RD2 = 0;
 [e = _RD2 -> -> 0 `i `b ]
@@ -429,8 +429,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 76:             lcd_string("IS DETECTED", 11);
 [e ( _lcd_string (2 , :s 2C -> -> 11 `i `uc ]
 "77
-[; ;main.c: 77:             _delay((unsigned long)((50)*(20000000/4000.0)));
-[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+[; ;main.c: 77:             _delay((unsigned long)((500)*(20000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
 "78
 [; ;main.c: 78:             RB2=0;
 [e = _RB2 -> -> 0 `i `b ]

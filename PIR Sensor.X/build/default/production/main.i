@@ -1732,7 +1732,7 @@ void lcd_data(unsigned char data)
     RD0 = 1;
     RD1 = 0;
     RD2 = 1;
-    _delay((unsigned long)((500)*(20000000/4000.0)));
+    _delay((unsigned long)((5)*(20000000/4000.0)));
     RD2 = 0;
 }
 
@@ -1742,7 +1742,7 @@ void lcd_command(unsigned char cmd)
     RD0 = 0;
     RD1 = 0;
     RD2 = 1;
-    _delay((unsigned long)((500)*(20000000/4000.0)));
+    _delay((unsigned long)((5)*(20000000/4000.0)));
     RD2 = 0;
 }
 
@@ -1785,7 +1785,7 @@ void main()
             lcd_string("MOVEMENT", 8);
             lcd_command(0xC3);
             lcd_string("IS DETECTED", 11);
-            _delay((unsigned long)((50)*(20000000/4000.0)));
+            _delay((unsigned long)((500)*(20000000/4000.0)));
             RB2=0;
             RB3=0;
             lcd_command(0x01);

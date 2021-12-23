@@ -21,7 +21,7 @@ void lcd_data(unsigned char data)
     RS = 1;
     RW = 0;
     EN = 1;
-    __delay_ms(500);
+    __delay_ms(5);
     EN = 0;
 }
 
@@ -31,7 +31,7 @@ void lcd_command(unsigned char cmd)
     RS = 0;
     RW = 0;
     EN = 1;
-    __delay_ms(500);
+    __delay_ms(5);
     EN = 0;
 }
 
@@ -74,7 +74,7 @@ void main() //The main function
             lcd_string("MOVEMENT", 8);
             lcd_command(0xC3);
             lcd_string("IS DETECTED", 11);
-            __delay_ms(50);   //Wait
+            __delay_ms(500);   //Wait
             Buzzer=0;
             Led=0;
             lcd_command(0x01);
